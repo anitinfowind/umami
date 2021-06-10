@@ -1,0 +1,1 @@
+<?php /**PATH F:\xampp\htdocs\umami\resources\views/frontend/includes/new/header.blade.php ENDPATH**/ ?>

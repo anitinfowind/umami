@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .parallax {
+        background-attachment: unset;
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        -moz-background-size: 100% !important;
+        -webkit-background-size: 100% !important;
+        background-position: center center !important;
+    }
+}

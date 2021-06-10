@@ -1,0 +1,127 @@
+
+ul.resp-tabs-list, p {
+  margin: 0px;
+  padding: 0px;
+}
+.resp-tabs-list li {
+  padding: 16px 40px;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  color: #575757;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 2;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.resp-tabs-list li:last-child {
+  border-right: 1px solid #ccc;
+}
+
+
+ul.resp-tabs-list li i {
+    display: block;
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 0.3em;
+}
+h2.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+
+.resp-tab-content {
+  display: none;
+}
+.resp-tab-active {
+  margin-bottom: -1px !important;
+    position: relative;
+    background-color: #ff8200;
+    border: 1px solid #ff8200 !important;
+    color: #fff !important;
+}
+
+.resp-content-active,
+.resp-accordion-active { display: block; }
+
+h2.resp-accordion {
+    font-size: 17px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 16px 15px;
+    letter-spacing: 1px;
+}
+
+h2.resp-tab-active {
+  border-bottom: 0px solid #fff !important;
+  margin-bottom: 0px !important;
+  padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+  border-bottom: 12px solid #c1c1c1 !important;
+  background: blue;
+}
+
+/*-----------Vertical tabs-----------*/
+
+.resp-vtabs ul.resp-tabs-list {
+  float: left;
+  width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+  display: block;
+  padding: 15px 15px !important;
+  margin: 0;
+  cursor: pointer;
+  float: none;
+}
+
+.resp-vtabs .resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  border: 1px solid #c1c1c1;
+  float: left;
+  width: 68%;
+  border-radius: 4px;
+  clear: none;
+}
+
+.resp-vtabs .resp-tab-content { border: none; }
+
+.resp-vtabs li.resp-tab-active {
+  border: 1px solid #c1c1c1;
+  border-right: none;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-right: -1px !important;
+  padding: 14px 15px 15px 14px !important;
+}
+
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #1c2020;
+}
+
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #ffffff;
+}
+

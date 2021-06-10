@@ -1,0 +1,118 @@
+@media only screen and (max-width:767px) {
+    .navbar-area {
+        padding-top: 20px;
+        text-align: center
+    }
+    .count-down-timer {
+        text-align: center;
+        margin-top: 0
+    }
+    .count-down-timer #timer div {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .count-down-timer #timer div span {
+        text-transform: capitalize;
+        margin-top: -4px
+    }
+    .main-banner-content {
+        text-align: center
+    }
+    .main-banner-content h1 {
+        line-height: 50px;
+        font-size: 50px
+    }
+    .main-banner-content p {
+        max-width: 100%;
+        font-size: 26px;
+        margin-top: 20px
+    }
+    .main-banner-content .newsletter-form2 {
+        margin-top: 30px
+    }
+    .main-banner-content .newsletter-form2 .input-newsletter {
+        width: 100%
+    }
+    .main-banner-content .newsletter-form2 button {
+        position: relative;
+        right: 0;
+        height: auto;
+        padding: 15px 30px;
+        line-height: initial;
+        font-size: 14px;
+    }
+    .navbar-menu {
+        justify-content: center;
+        display: flex;
+    }
+    .frm-lft,
+    .frm-middle,
+    .frm-last {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .frm-middle {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width:667px) and (max-width:767px) {
+    .main-banner {
+        height: 100%;
+        padding-top: 155px;
+        padding-bottom: 110px
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .count-down-timer #timer div {
+        font-size: 45px;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .main-banner-content {
+        text-align: center
+    }
+    .main-banner-content h1 {
+        line-height: 53px;
+        font-size: 62px
+    }
+    .main-banner-content p {
+        font-size: 24px;
+    }
+    .main-banner-content .newsletter-form2 .input-newsletter {
+        width: 100%
+    }
+    .main-banner-content .newsletter-form2 button {
+        height: 50px;
+        padding: 0 30px;
+        line-height: 50px;
+        font-size: 14px;
+        margin-top: 0
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .main-banner-content .newsletter-form2 {
+        margin-top: 30px;
+        max-width: 540px
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .main-banner .col-lg-6 {
+        -ms-flex: 0 0 55%;
+        -webkit-box-flex: 0;
+        flex: 0 0 55%;
+        max-width: 55%
+    }
+    .main-banner-content .newsletter-form2 .input-newsletter {
+        width: 100%
+    }
+    .main-banner-content .newsletter-form2 button {
+        right: 0
+    }
+}
