@@ -1,7 +1,7 @@
 @extends('frontend.layouts.layout')
 @section('content')
 
-<nav class="breadcrumb" aria-label="breadcrumb">
+<nav class="breadcrumb test" aria-label="breadcrumb">
   <div class="container">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
