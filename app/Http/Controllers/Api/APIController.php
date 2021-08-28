@@ -192,4 +192,9 @@ class APIController extends Controller
     {
         return $this->respondWithError($message);
     }
+
+    public function throwValidation_new_commit($message)
+    {
+        return $this->respondWithError($message);
+    }
 }
