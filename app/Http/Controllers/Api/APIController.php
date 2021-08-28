@@ -187,4 +187,9 @@ class APIController extends Controller
     {
         return $this->respondWithError($message);
     }
+
+    public function throwValidation_new($message)
+    {
+        return $this->respondWithError($message);
+    }
 }
